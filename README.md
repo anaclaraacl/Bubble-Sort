@@ -1,0 +1,1 @@
+Este projeto foi desenvolvido como parte do meu curso técnico em Informática e tem como foco demonstrar a aplicação do algoritmo Bubble Sort — Um algoritmo simples de ordenação que compara pares de elementos adjacentes e troca-os se estiverem fora de ordem. Além disso, o projeto oferece uma oportunidade para praticar a lógica da linguagem TypeScript.
