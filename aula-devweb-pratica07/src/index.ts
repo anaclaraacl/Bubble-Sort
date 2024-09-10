@@ -33,7 +33,7 @@ let maior = listaPrecos[listaPrecos.length - 1]
 console.log("O menor valor do array acima é:", menor)
 console.log("O maior valor do array acima é:", maior)
 
-// Versão 2 - Solicite aos usuários a lista de preços através de linhas de comando.
+// Versão 2 - Solicite ao usuários a lista de preços através de linhas de comando.
 console.log("-------------------------")
 import { input } from "@inquirer/prompts";
 
@@ -62,19 +62,6 @@ import { input } from "@inquirer/prompts";
 	}
 	let media = soma / arrayPrecos.length;
 	console.log("A média da lista de preços informada pelo usuário é:", media)
-
-// Bônus - Solicite aos usuários números pares através de linhas de comando e faça a soma entre eles.
-	console.log("-------------------------")
-	let valoresPares: number[] = [];
-	let somaPares = 0;
-	for (let i = 0; i < arrayPrecos.length; i++) {
-		if (arrayPrecos[i] % 2 == 0) {
-			valoresPares.push(arrayPrecos[i])
-			somaPares += arrayPrecos[i]
-		}
-	}
-	console.log("Os valores pares são:", valoresPares)
-	console.log("A soma dos pares é:", somaPares)
 
 })();
 
